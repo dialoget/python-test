@@ -2,7 +2,7 @@ import sys
 
 sys.path.append('../')
 from data.env import GITHUB_API_URL
-from lib.dialoget import dialoget
+import dialoget
 
 
 @dialoget('Update a {repo_name} on {org_name}, Set a {description}, Set a {domain}', '../../')

@@ -1,7 +1,7 @@
 import sys
 
 sys.path.append('../')
-from lib.dialoget import dialoget
+import dialoget
 
 
 @dialoget('Update a {repo_name} on {org_name}, Set a {description}, Set a {domain}', '../../')

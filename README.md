@@ -8,7 +8,8 @@ pip install --upgrade pip
 pip install requests
 pip install behave
 pip install setuptools
-pip install git+https://github.com/dialoget/python.git
+pip install dialoget
+#pip install git+https://github.com/dialoget/python.git
 chmod +x test.sh
 ```
 
