@@ -1,7 +1,7 @@
 import sys
 sys.path.append('../')
-from data.user import *
-from data.prompt import *
+from .data.user import *
+from .data.prompt import *
 
 FromEnv = {
     "API token": GITHUB_API_TOKEN,
