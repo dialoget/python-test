@@ -1,8 +1,8 @@
 import sys
 
 sys.path.append('../../')
-from data.env import GITHUB_API_URL
 from src.create_repo_on_org_github import create_repo_on_org_github
+from data.env import GITHUB_API_URL
 from data.prompt import *
 
 # from lib.dialoget import *

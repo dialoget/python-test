@@ -1,8 +1,6 @@
-import sys
-
-sys.path.append('../')
 import dialoget
-
+import sys
+sys.path.append('../')
 
 @dialoget('Update a {repo_name} on {org_name}, Set a {description}, Set a {domain}', '../../')
 # Connect to the github API @GITHUB_API_URL with @api_token'

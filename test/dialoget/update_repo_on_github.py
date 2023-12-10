@@ -3,6 +3,8 @@ import sys
 sys.path.append('../../')
 from src.update_repo_on_github import update_repo_on_github
 from data.map import *
+from data.env import GITHUB_API_URL
+from data.prompt import *
 
 # from lib.dialoget import *
 

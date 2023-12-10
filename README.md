@@ -3,14 +3,21 @@ python-test.dialoget.com - test repository
 
 
 ## init
+
+
 ```bash
 pip install --upgrade pip
+#pip install git+https://github.com/dialoget/python.git
+pip install -r requirements.txt
+chmod +x test.sh
+```
+
+## packages
+```bash
 pip install requests
 pip install behave
 pip install setuptools
 pip install dialoget
-#pip install git+https://github.com/dialoget/python.git
-chmod +x test.sh
 ```
 
 ## Start testing

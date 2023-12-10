@@ -1,8 +1,8 @@
 import sys
 
 sys.path.append('../../')
-from data.env import GITHUB_API_URL
 from src.update_repo_on_github2 import update_repo_on_github2
+from data.env import GITHUB_API_URL
 from data.prompt import *
 
 # from data.map import *

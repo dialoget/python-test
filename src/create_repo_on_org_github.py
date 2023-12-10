@@ -1,8 +1,8 @@
+import dialoget
 import sys
 
 sys.path.append('../')
 from data.env import GITHUB_API_URL
-import dialoget
 
 
 # f'Connect to {GITHUB_API_URL} by {api_token}'
